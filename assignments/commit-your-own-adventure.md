@@ -1,4 +1,4 @@
-# MEC TTP 2021 Winter Assignment 1: Choose Your Own Adventure
+# TTP 2022 Winter Assignment 1: Choose Your Own Adventure
 
 ## Purpose
 
