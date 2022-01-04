@@ -19,10 +19,10 @@ Solution: Vampire Pinata! Punch out Dracula **and** spike your glucose levels!
 Instead of Jackbox, we'll be using the git workflow to play. Here's how:
 
 - Problems will be distributed through a single file in a main repo
-- Teams will brainstorm a solution together and submit the change through a merge request
+- Students will brainstorm an app solution and submit the change through a merge request
 - A judge will pick the best / funniest / cleverest answer and merge it into main
 - All other requests will be rejected
-- The team with the most merged branches wins
+- The student with the most merged branches wins
 
 ---
 
