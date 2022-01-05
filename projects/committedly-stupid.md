@@ -1,4 +1,4 @@
-# Committedly Stupid
+# TTP 2022 Winter Project  2: Committedly Stupid
 ## Learning Verson Control through Gaming
 
 ---

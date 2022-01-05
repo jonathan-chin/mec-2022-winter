@@ -1,4 +1,4 @@
-# TTP 2022 Winter Assignment 1: Choose Your Own Adventure
+# TTP 2022 Winter Project 1: Choose Your Own Adventure
 
 ## Purpose
 
