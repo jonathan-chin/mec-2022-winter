@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      #default_div{
+	  /* default = display: block */
+	  /* block-level element */
+	  background-color: pink;
+      }
+
+      #default_span_1{
+	  /* default = display: inline */
+	  /* inline-level element */
+	  background-color: blue;
+      }
+
+      #default_span_2{
+	  background-color: brown;
+      }
+
+      #edited_div{
+	  background-color: burlywood;
+	  display: inline;
+	  width: 500px; /* rule is ignored for inline elements */
+      }
+
+      #inline_block_div{
+	  background-color: purple;
+	  display: inline-block;
+	  /* inline-block-level element */
+	  width: 100px;
+	  height: 250px;
+      }
+
+      .big{
+	  font-size: 20px;
+      }
+
+      #body{
+	  padding-bottom: 200px;
+      }
+
+      .box{
+	  flex-grow: 1;
+	  height: 50px;
+	  margin: 10px;
+	  background-color: green;
+      }
+
+      #container{
+	  display: flex;
+	  flex-direction: row;
+      }
+
+
+      #webpage_container{
+	  display: flex;
+      }
+
+      #left{
+	  flex-grow: 1;
+	  background-color: orange;
+      }
+
+      #main{
+	  flex-grow: 3;
+	  background-color: purple;
+      }
+
+      #right{
+	  flex-grow: 1;
+	  background-color: black;
+	  color: white;
+      }
+
+      
+    </style>
+  </head>
+
+  <body id='body'>
+    <h2>
+      display: block / inline / inline-block
+    </h2>
+    <div id='default_div'>
+      default div
+    </div>
+    <span id='default_span_1'>
+      default span
+    </span>
+    <span id='default_span_2' class='big'>
+      default span
+    </span>
+    <div id='edited_div'>
+      edited div
+    </div>
+    <div id='inline_block_div' class='big'>
+      i-b div
+    </div>
+
+    <hr />
+    
+    <h2>
+      display: flex and flexbox
+    </h2>
+
+    <div id='container'>
+      <div class='box'>1</div>
+      <div class='box'>2</div>
+      <div class='box'>3</div>
+      <div class='box'>4</div>
+    </div>
+
+    <div id='webpage_container'>
+      <div id='left'>
+	left sidebar
+      </div>
+      <div id='main'>
+	main content
+      </div>
+      <div id='right'>
+	right sidebar
+      </div>
+    </div>
+
+
+    
+  </body>
+</html>
