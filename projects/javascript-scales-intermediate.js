@@ -1,10 +1,4 @@
 /**
- * @param {}  - 
- * @return {} 
- **/
-
-
-/**
  * @param {date_one} Date - a random date
  * @param {date_two} Date - a random date
  * @constraint implement this using the MomentJS module
