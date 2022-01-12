@@ -3,7 +3,6 @@
  * @param {number} width - the width of the square
  * @return {number} the area of the square
 **/
-// return the area of a square given a length and width
 function find_area_square(length, width){
 
 }
