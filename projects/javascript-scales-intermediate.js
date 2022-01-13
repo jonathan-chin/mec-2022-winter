@@ -1,22 +1,6 @@
-/**
- * @param {date_one} Date - a random date
- * @param {date_two} Date - a random date
- * @constraint implement this using the MomentJS module
- * @return {string} text representation of how many days are between the two given dats
- **/
 
-function days_between(date_one, date_two){
 
-}
 
-/**
- * @param {string} uuid - a string that may or may not be a valid uuid
- * @return {boolean} whether the string is a valid uuid or not
- **/
-
-function validate_uuid(uuid){
-
-}
 
 /**
  * @param {array<number>} numbers - an array of numbers
@@ -67,6 +51,28 @@ async function list_songs_by(artist){
    ----------------
  *
  **/
+
+// THIS IS A CHALLENGE
+
+/**
+ * @param {date_one} Date - a random date
+ * @param {date_two} Date - a random date
+ * @constraint implement this using the MomentJS module
+ * @return {string} text representation of how many days are between the two given dats
+ **/
+
+function days_between(date_one, date_two){
+
+}
+
+/**
+ * @param {string} uuid - a string that may or may not be a valid uuid
+ * @return {boolean} whether the string is a valid uuid or not
+ **/
+
+function validate_uuid(uuid){
+
+}
 
 const commands = [
     'days_between(new Date("June 14, 1989"), new Date("October 26, 2005"))',
