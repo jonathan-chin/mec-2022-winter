@@ -31,6 +31,7 @@ function days_between(date_one, date_two){
 
 /**
  * @param {string} uuid - a string that may or may not be a valid uuid
+ * @constraint implement this using the uuid module
  * @return {boolean} whether the string is a valid uuid or not
  **/
 
