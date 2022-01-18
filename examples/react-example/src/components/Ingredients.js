@@ -3,24 +3,34 @@
 // React component names should be capitalized
 function Ingredients({
     // to get access to attributes, put {attribute_name} in the arguments of the function
-    ingredients
+    ingredients,
+    title,
+    prep_time
 }){
-
+    
     /*
        <li>ingredient 1</li>
        <li>ingredient 2</li>
-    */
+     */
     
     return (
+	<div>
+	<h2>
+	{title}
+	</h2>
+	<p>
+	{prep_time}
+	</p>
 	<ol>
-	    {ingredients.map(
-		// .map is a built in function of arrays that allows you to process them one at a time.
-		// remember when using .map that you need to provide a *unique* key attribute for each item
-		(ingredient) => {
-		    return <li key={ingredient}>{ingredient}</li>;
-		}
-	    )}
+	{ingredients.map(
+	    // .map is a built in function of arrays that allows you to process them one at a time.
+	    // remember when using .map that you need to provide a *unique* key attribute for each item
+	    (ingredient) => {
+		return <li key={ingredient}>{ingredient}</li>;
+	    }
+	)}
 	</ol>
+	</div>
     );
 }
 
