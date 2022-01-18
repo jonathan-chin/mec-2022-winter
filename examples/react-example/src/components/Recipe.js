@@ -1,7 +1,7 @@
 
 // to create a React component, use a JS function that returns some HTML / other components
 // React component names should be capitalized
-function Ingredients({
+function Recipe({
     // to get access to attributes, put {attribute_name} in the arguments of the function
     ingredients,
     title,
@@ -36,4 +36,4 @@ function Ingredients({
 
 
 // this lets other components / JS files use this file
-export default Ingredients;
+export default Recipe;
